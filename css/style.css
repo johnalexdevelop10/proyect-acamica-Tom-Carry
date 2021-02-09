@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+body,
+html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+}
+.imagen-fondo {
+    background-position: center;
+    background-size: cover;
+    background-image: url("../img/background_4.jpg");
+    min-height: 100%;
+}
+
+h1 {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  color: white;
+  font-family: 'Righteous', serif;
+  font-size: 12em;
+  text-shadow: .03em .03em 0 rgb(252, 206, 0);
+  }
+
+  h2 {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    color: white;
+    font-family: 'changa', sans-serif;
+    font-size: 6em;
+    text-shadow: .03em .03em 0 rgb(252, 206, 0);
+  }
+
+  @media only screen and (max-width: 767px) {
+
+     h1 {
+        font-size: 5em;
+     }
+
+     h2 {
+        font-size: 5em;
+     }
+
+  }
+
+
+
+h3 {
+    font-size: 18px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+h4 {
+  text-align: center;
+  font-size: 15px;
+  color: grey;
+
+
+}
+ h5{
+   font-size: 18px;
+   font-family: "Segoe UI", Arial, sans-serif;
+   font-weight: 400;
+   margin: 10px 0;
+ }
+
+p {
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+
+}
+button{
+border: none;
+background: #f1f1f1;
+color: black;
+padding: 10px;
+font-size: 18px;
+}
